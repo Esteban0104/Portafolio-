@@ -234,13 +234,18 @@ footer{
     object-fit: fill ;
 
 }
-.skill{
+
+
+
+.titulos{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     color:rgb(204, 195, 195) ;
 
 }
+
+
 
 .centrado {
     display: flex;
@@ -249,17 +254,26 @@ footer{
 
 }
 
-/* .navbar{
+.navbar{
     background-color: rgba(0, 0, 0, 0) !important;
     border-bottom: #dddcdc67 solid;
 
-} */
+}
+
+
 
 .navbar a:hover{
     color: rgb(255, 255, 255) !important;
-    transition: 1s;
+    transition: 0.5s;
   /*   background-color: white;
     color: #000000 !important; */
+}
+.redes{
+    height: 50px;
+    position: absolute;
+    top: 540px;
+   
+   
 }
 
 /* .centrado{
