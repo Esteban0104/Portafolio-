@@ -269,12 +269,19 @@ footer{
     color: #000000 !important; */
 }
 .redes{
-    height: 50px;
-    position: absolute;
-    top: 540px;
-   
-   
+  max-width: 40px;
+    
 }
+
+.ulr{
+  display: flex;
+  position:relative;
+  margin: -60px;
+  list-style: none;
+  gap: 20px;
+}
+
+
 
 /* .centrado{
     position: absolute;
