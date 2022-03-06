@@ -242,7 +242,26 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     color:rgb(204, 195, 195) ;
+}
+.titulos::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
 
+.titulos:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.titulos::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(102, 102, 102);
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 
@@ -269,9 +288,11 @@ footer{
     color: #000000 !important; */
 }
 .redes{
-  max-width: 40px;
+  max-width: 35px;
     
 }
+
+
 
 .ulr{
   display: flex;
@@ -281,8 +302,35 @@ footer{
   gap: 20px;
 }
 
+.carousel-inner{
+  max-width: 20%;
+  margin: auto;
+}
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: 0px 0px;
+  border: 0px;
+  opacity: 0.5;
+  transition: opacity 0.15s ease 0s;
+}
+
+.fl3{
+  display: flex;
+  position:relative;
 
 
+
+}
 /* .centrado{
     position: absolute;
     top: 30%;
